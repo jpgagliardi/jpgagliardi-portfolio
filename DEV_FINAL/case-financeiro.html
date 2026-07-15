@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Front Financeiro — João Pedro Gagliardi</title>
+  <meta name="description" content="Redesign da operação financeira da área de atendimento ao cliente, consolidando cinco plataformas fragmentadas em uma única experiência unificada." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;700&family=Montserrat:wght@300;400;500;600;700&family=Pathway+Extreme:wght@600&family=Charmonman&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body class="case-page">
+
+  <header class="header">
+    <div class="header__inner">
+    <a class="logo" href="index.html" aria-label="Início">
+      <img class="logo__mark" src="assets/img/logo-mark.png" alt="" />
+      <span class="logo__text">
+        <span class="logo__line logo__line--small">JOÃO PEDRO</span>
+        <span class="logo__line logo__line--big">GAGLIARDI</span>
+      </span>
+    </a>
+
+    <nav class="nav" aria-label="Navegação principal">
+      <a class="nav__link" href="index.html#projetos">Projetos</a>
+      <a class="nav__link" href="index.html#sobre">Minha história</a>
+      <a class="nav__link" href="assets/cv.pdf" download>Resumo</a>
+    </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============ HERO DO CASE ============ -->
+    <section class="chero container">
+      <div class="chero__info">
+        <p class="eyebrow">PLATAFORMA</p>
+        <h1 class="chero__title">Front<br />Financeiro</h1>
+        <p class="chero__meta">Porto Seguro · 2025 · 5 semanas</p>
+        <p class="chero__desc">
+          Redesign da operação financeira da área de atendimento ao cliente,
+          consolidando cinco plataformas fragmentadas em uma única experiência
+          unificada.
+        </p>
+        <hr class="chero__sep" />
+        <p class="chero__label">MINHA ATUAÇÃO</p>
+        <p class="chero__value">Discovery · Estratégia · UX/UI · Testes · Handoff</p>
+        <p class="chero__label">TIME</p>
+        <p class="chero__value">1 PD · 1 PO · 1 TL · 4 DEVs</p>
+      </div>
+
+      <div class="chero__media">
+        <img src="assets/img/case-financeiro-hero.png" alt="Notebook exibindo a plataforma Front Financeiro" />
+      </div>
+    </section>
+
+
+    <!-- ============ CONTEXTO ============ -->
+    <section class="csection container">
+      <p class="eyebrow csection__eyebrow">CONTEXTO</p>
+      <div class="csection__content">
+        <h2 class="csection__title">Uma operação<br />fragmentada</h2>
+        <p class="csection__lead">
+          A Porto Seguro opera uma das maiores estruturas de atendimento financeiro
+          do Brasil com mais de 100 mil atendimentos por mês. Cada canal funcionava
+          de forma isolada, apoiado por ferramentas sem integração entre si, gerando
+          uma operação complexa para concluir um único atendimento.
+        </p>
+
+        <div class="stats-row">
+          <div class="stat">
+            <p class="stat__number">114<small>k</small></p>
+            <p class="stat__label">Atendimentos por mês</p>
+          </div>
+          <div class="stat">
+            <p class="stat__number">76<small>k</small></p>
+            <p class="stat__label">Via Chat</p>
+          </div>
+          <div class="stat">
+            <p class="stat__number">21<small>k</small></p>
+            <p class="stat__label">Via Telefone</p>
+          </div>
+          <div class="stat">
+            <p class="stat__number">17<small>k</small></p>
+            <p class="stat__label">Via Whatsapp</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============ DESAFIO ============ -->
+    <section class="csection container">
+      <p class="eyebrow csection__eyebrow">DESAFIO</p>
+      <div class="csection__content">
+        <h2 class="csection__title">Transformar uma operação complexa sem interromper o negócio</h2>
+        <p class="csection__lead">
+          O objetivo era reduzir o esforço para realizar um atendimento, eliminando
+          a dependência entre sistemas e concentrando todas as informações em
+          um único fluxo operacional.
+        </p>
+
+        <ol class="challenges">
+          <li class="challenge">
+            <span class="challenge__num">01</span>
+            <div>
+              <h3 class="challenge__title">Sistema legado</h3>
+              <p class="challenge__desc">
+                Plataforma desenvolvida em 2017, com limitações de performance e
+                usabilidade acumuladas ao longo de anos.
+              </p>
+            </div>
+          </li>
+          <li class="challenge">
+            <span class="challenge__num">02</span>
+            <div>
+              <h3 class="challenge__title">Múltiplas regras de negócio</h3>
+              <p class="challenge__desc">
+                Cada sistema tinha fontes de dados e lógicas distintas que
+                precisavam ser mapeadas e consolidadas.
+              </p>
+            </div>
+          </li>
+          <li class="challenge">
+            <span class="challenge__num">03</span>
+            <div>
+              <h3 class="challenge__title">Prazo de cinco semanas</h3>
+              <p class="challenge__desc">
+                Todo o ciclo de discovery, definição e entrega precisava ser
+                concluído sem interromper a operação em andamento.
+              </p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+
+    <!-- ============ PESQUISA ============ -->
+    <section class="csection csection--split container">
+      <div class="csection__left">
+        <p class="eyebrow">PESQUISA</p>
+        <h2 class="csection__title">Como entendemos a operação</h2>
+        <p class="csection__lead">
+          Combinamos entrevistas, observação em campo e análise de fluxos para
+          entender onde o atendimento realmente travava.
+        </p>
+
+        <ul class="mini-stats">
+          <li class="mini-stat">
+            <span class="mini-stat__number">~20<small>h</small></span>
+            <span class="mini-stat__label">de entrevistas com operadores e supervisores</span>
+          </li>
+          <li class="mini-stat">
+            <span class="mini-stat__number">10+</span>
+            <span class="mini-stat__label">horas de imersão na operação</span>
+          </li>
+          <li class="mini-stat">
+            <span class="mini-stat__number">11</span>
+            <span class="mini-stat__label">jornadas críticas mapeadas</span>
+          </li>
+          <li class="mini-stat">
+            <span class="mini-stat__number">5</span>
+            <span class="mini-stat__label">plataformas analisadas</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="csection__right">
+        <figure class="shot">
+          <img src="assets/img/case-financeiro-pesquisa.png" alt="Mapeamento de fluxos e sistemas da operação de atendimento financeiro" />
+          <figcaption class="shot__caption">
+            A complexidade do atendimento estava na busca e validação
+            das informações, não na resolução da solicitação em si.
+          </figcaption>
+        </figure>
+      </div>
+
+      <div class="quotes">
+        <blockquote class="quote-card">
+          <p>"Tenho que consultar dois sistemas só para saber se os dados do veículo estão corretos."</p>
+          <cite>Operador</cite>
+        </blockquote>
+        <blockquote class="quote-card">
+          <p>"Se eu quiser mandar três comprovantes de pagamento, preciso fazer a ação três vezes."</p>
+          <cite>Operador</cite>
+        </blockquote>
+        <blockquote class="quote-card">
+          <p>"Não faz sentido para o time de atendimento utilizar excel para cálculo que deveria ser automático."</p>
+          <cite>Supervisor</cite>
+        </blockquote>
+      </div>
+    </section>
+
+
+    <!-- ============ SOLUÇÃO ============ -->
+    <section class="csection csection--split container">
+      <div class="csection__left">
+        <p class="eyebrow">SOLUÇÃO</p>
+        <h2 class="csection__title">Uma plataforma que cresce sem recriar a complexidade</h2>
+        <p class="csection__lead">
+          Priorizamos as jornadas com maior impacto operacional e construímos a
+          solução de forma modular, permitindo escalar sem herdar os problemas dos
+          sistemas anteriores.
+        </p>
+
+        <ul class="checklist">
+          <li>Consulta de informações em uma única interface</li>
+          <li>Navegação contínua entre jornadas sem troca de sistema</li>
+          <li>Controle de acesso por perfil de operador</li>
+          <li>Histórico operacional centralizado</li>
+        </ul>
+      </div>
+
+      <div class="csection__right">
+        <figure class="shot shot--plain">
+          <img src="assets/img/case-financeiro-solucao.png" alt="Telas da nova plataforma: busca por contrato e modal Trocar favorecido" />
+          <div class="pillars">
+            <div class="pillar">
+              <h3 class="pillar__title">Navegação unificada</h3>
+              <p class="pillar__desc">Mesmos padrões de interação entre todas as jornadas.</p>
+            </div>
+            <div class="pillar">
+              <h3 class="pillar__title">Integrações padronizadas</h3>
+              <p class="pillar__desc">APIs estruturadas para expansão sem recriar complexidade.</p>
+            </div>
+            <div class="pillar">
+              <h3 class="pillar__title">Padrões de interface</h3>
+              <p class="pillar__desc">Uso do DS Porto para consistência e agilidade no desenvolvimento.</p>
+            </div>
+          </div>
+        </figure>
+      </div>
+    </section>
+
+
+    <!-- ============ ANTES E DEPOIS ============ -->
+    <section class="csection csection--compare container">
+      <p class="eyebrow csection__eyebrow">ANTES E DEPOIS</p>
+      <div class="csection__content">
+        <h2 class="compare__title">Consulta:<br />como era e como ficou</h2>
+
+        <div class="compare">
+          <div class="compare__col">
+            <img src="assets/img/case-financeiro-antes.png" alt="ANTES: sistema legado de atendimento financeiro" />
+            <div class="compare__notes">
+              <p class="compare__note"><span class="mark">✕</span>Múltiplas abas por atendimento</p>
+              <p class="compare__note"><span class="mark">✕</span>Hierarquia visual fraca</p>
+              <p class="compare__note"><span class="mark">✕</span>Dependência de planilhas</p>
+            </div>
+          </div>
+
+          <span class="compare__arrow" aria-hidden="true">›</span>
+
+          <div class="compare__col">
+            <img src="assets/img/case-financeiro-depois.png" alt="DEPOIS: nova plataforma unificada de atendimento" />
+            <div class="compare__notes">
+              <p class="compare__note compare__note--ok"><span class="mark">✓</span>Informações organizadas por contexto</p>
+              <p class="compare__note compare__note--ok"><span class="mark">✓</span>Dados críticos visíveis por padrão</p>
+              <p class="compare__note compare__note--ok"><span class="mark">✓</span>Menos cliques para ações frequentes</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============ RESULTADOS ============ -->
+    <section class="csection container">
+      <p class="eyebrow csection__eyebrow">RESULTADOS</p>
+      <div class="csection__content">
+        <div class="results-big">
+          <div class="result-big">
+            <p class="result-big__number">60<small>%</small></p>
+            <p class="result-big__label">de redução no TMO, medida em testes com 10 operadores</p>
+          </div>
+          <div class="result-big">
+            <p class="result-big__number">9/10</p>
+            <p class="result-big__label">de satisfação média nos testes de usabilidade com operadores</p>
+          </div>
+        </div>
+
+        <div class="result-cols">
+          <div class="result-col">
+            <h3 class="result-col__title">Eficiência operacional</h3>
+            <p class="result-col__desc">
+              Operadores passaram a executar jornadas completas sem recorrer a
+              sistemas paralelos.
+            </p>
+          </div>
+          <div class="result-col">
+            <h3 class="result-col__title">Escalabilidade estrutural</h3>
+            <p class="result-col__desc">
+              Produtos, regras e integrações podem ser adicionados sem recriar a
+              complexidade anterior.
+            </p>
+          </div>
+          <div class="result-col">
+            <h3 class="result-col__title">Onboarding mais rápido</h3>
+            <p class="result-col__desc">
+              A consistência entre jornadas tornou a navegação mais previsível,
+              reduzindo o tempo de adaptação de novos operadores.
+            </p>
+          </div>
+          <div class="result-col">
+            <h3 class="result-col__title">Governança e controle</h3>
+            <p class="result-col__desc">
+              Perfis de acesso garantem que cada operador veja e execute apenas
+              o que é relevante para sua função.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============ APRENDIZADOS ============ -->
+    <section class="csection container">
+      <p class="eyebrow csection__eyebrow">APRENDIZADOS</p>
+      <div class="csection__content">
+        <article class="learning">
+          <h3 class="learning__title">A vivência vale tanto<br />quanto o roteiro</h3>
+          <p class="learning__desc">
+            Entrevistas bem roteirizadas são essenciais, mas é a vivência de quem
+            opera o sistema que preenche as lacunas. Os especialistas não foram
+            fonte de validação: foram coautores da solução. Cada sessão de
+            mapeamento era, na prática, uma sessão de cocriação. Sem esse processo,
+            qualquer proposta seria um facelift.
+          </p>
+        </article>
+
+        <article class="learning">
+          <h3 class="learning__title">Boas práticas de UXW<br />não são universais</h3>
+          <p class="learning__desc">
+            Reorganizar os labels com nomes alinhados ao contexto e não ao técnico
+            teve efeito oposto do esperado. Os operadores estavam acostumados com a
+            nomenclatura antiga e a mudança gerou confusão e aumento do TMO. Em
+            contextos muito específicos, o vocabulário do usuário supera qualquer
+            padrão de mercado.
+          </p>
+        </article>
+
+        <article class="learning">
+          <h3 class="learning__title">Decisões técnicas influenciam diretamente a experiência</h3>
+          <p class="learning__desc">
+            O alinhamento contínuo com o time de tecnologia foi o que permitiu
+            construir algo escalável sem herdar as limitações dos sistemas
+            anteriores.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <hr class="divider container" />
+
+  </main>
+
+  <footer class="footer">
+    <p>João Pedro Gagliardi — Product Designer</p>
+    <p>© 2026</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

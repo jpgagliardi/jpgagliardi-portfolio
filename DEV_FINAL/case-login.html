@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login e Carteirinha — João Pedro Gagliardi</title>
+  <meta name="description" content="Redesenho da jornada de acesso do app saúde, simplificando o login e o acesso a mais de uma carteirinha." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;700&family=Montserrat:wght@300;400;500;600;700&family=Pathway+Extreme:wght@600&family=Charmonman&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body class="case-page">
+
+  <header class="header">
+    <div class="header__inner">
+    <a class="logo" href="index.html" aria-label="Início">
+      <img class="logo__mark" src="assets/img/logo-mark.png" alt="" />
+      <span class="logo__text">
+        <span class="logo__line logo__line--small">JOÃO PEDRO</span>
+        <span class="logo__line logo__line--big">GAGLIARDI</span>
+      </span>
+    </a>
+
+    <nav class="nav" aria-label="Navegação principal">
+      <a class="nav__link" href="index.html#projetos">Projetos</a>
+      <a class="nav__link" href="index.html#sobre">Minha história</a>
+      <a class="nav__link" href="assets/cv.pdf" download>Resumo</a>
+    </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============ HERO DO CASE ============ -->
+    <section class="chero container">
+      <div class="chero__info">
+        <p class="eyebrow">APP MOBILE</p>
+        <h1 class="chero__title">Login e<br />Carteirinha</h1>
+        <p class="chero__meta">SulAmérica · App mobile · 2021</p>
+        <p class="chero__desc">
+          Redesenho da jornada de acesso do app saúde, simplificando o login e o
+          acesso a mais de uma carteirinha.
+        </p>
+        <hr class="chero__sep" />
+        <p class="chero__label">MINHA ATUAÇÃO</p>
+        <p class="chero__value">Discovery · Estratégia · UX/UI · Handoff</p>
+        <p class="chero__label">TIME</p>
+        <p class="chero__value">2 PDs · 2 POs · 1 TL · Time de tecnologia</p>
+      </div>
+
+      <div class="chero__media">
+        <img src="assets/img/case-login-hero.png" alt="Celular exibindo a tela de login do app SulAmérica" />
+      </div>
+    </section>
+
+
+    <!-- ============ CONTEXTO ============ -->
+    <section class="csection container">
+      <p class="eyebrow csection__eyebrow">CONTEXTO</p>
+      <div class="csection__content">
+        <h2 class="csection__title">Problemas de experiência no primeiro contato com o produto</h2>
+        <p class="csection__lead">
+          O app SulAmérica Saúde tinha no login um dos seus maiores pontos de atrito.
+          As avaliações nas lojas e os registros da central de atendimento apontavam
+          para o mesmo lugar: problema para logar, falta de clareza em cenários com
+          mais de uma carteirinha.
+        </p>
+      </div>
+    </section>
+
+
+    <!-- ============ DESAFIO ============ -->
+    <section class="csection container">
+      <p class="eyebrow csection__eyebrow">DESAFIO</p>
+      <div class="csection__content">
+        <h2 class="csection__title">Simplificar o acesso sem ignorar quem tem mais de um plano</h2>
+        <p class="csection__lead">
+          O login concentrava reclamações, mas o problema não parava
+          só na tela de entrada. Beneficiários com mais de um plano
+          enfrentavam uma camada extra de complexidade.
+        </p>
+
+        <ol class="challenges">
+          <li class="challenge">
+            <span class="challenge__num">01</span>
+            <div>
+              <h3 class="challenge__title">Autenticação difícil</h3>
+              <p class="challenge__desc">
+                As avaliações mostravam senha esquecida e trocas constantes como
+                queixa recorrente no acesso.
+              </p>
+            </div>
+          </li>
+          <li class="challenge">
+            <span class="challenge__num">02</span>
+            <div>
+              <h3 class="challenge__title">Carteirinhas duplicadas</h3>
+              <p class="challenge__desc">
+                O app exibia múltiplas carteirinhas sem indicar qual estava ativa,
+                deixando o beneficiário adivinhar qual usar.
+              </p>
+            </div>
+          </li>
+          <li class="challenge">
+            <span class="challenge__num">03</span>
+            <div>
+              <h3 class="challenge__title">Relogin a cada troca</h3>
+              <p class="challenge__desc">
+                Alternar entre planos forçava um novo login, interrompendo o
+                beneficiário justamente quando ele precisava de agilidade.
+              </p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+
+    <!-- ============ PESQUISA ============ -->
+    <section class="csection csection--split container">
+      <div class="csection__left">
+        <p class="eyebrow">PESQUISA</p>
+        <h2 class="csection__title">Como mapeamos o problema</h2>
+        <p class="csection__lead">
+          Uma nuvem de palavras a partir das avaliações da loja colocou "login",
+          "senha" e "carteirinha" no centro das reclamações, e os mesmos temas
+          apareciam nos registros da central de atendimento. Estruturamos o
+          problema com um mapa de empatia e um mapa de stakeholders, diretos e
+          indiretos, e construímos a persona. Priorizamos as oportunidades em uma
+          matriz de esforço e impacto, onde "login por CPF" apareceu no quadrante
+          de muito impacto.
+        </p>
+
+        <div class="quotes quotes--single">
+          <blockquote class="quote-card">
+            <p>"O aplicativo não reconhece a senha, preciso trocar todos os dias."</p>
+            <cite>Beneficiária, resenha na loja</cite>
+          </blockquote>
+        </div>
+      </div>
+
+      <div class="csection__right">
+        <figure class="shot shot--plain">
+          <img src="assets/img/case-login-pesquisa.png" alt="Mapa de stakeholders, mapa de empatia, persona e matriz de esforço e impacto" />
+        </figure>
+      </div>
+    </section>
+
+
+    <!-- ============ SOLUÇÃO ============ -->
+    <section class="csection csection--split container">
+      <div class="csection__left">
+        <p class="eyebrow">SOLUÇÃO</p>
+        <h2 class="csection__title">Redesign do login com identificação de carteirinhas</h2>
+        <p class="csection__lead">
+          O login foi reorganizado em torno de duas ideias: caminhos claros de
+          entrada, identificação e exibição de outras carteirinhas com seleção de
+          qual o app irá se conectar.
+        </p>
+      </div>
+
+      <div class="csection__right">
+        <figure class="shot shot--plain">
+          <img src="assets/img/case-login-solucao.png" alt="Telas do novo fluxo: login por CPF, escolha do plano, contas salvas e esqueci a senha" />
+        </figure>
+      </div>
+    </section>
+
+
+    <!-- ============ RESULTADOS ============ -->
+    <section class="csection container">
+      <p class="eyebrow csection__eyebrow">RESULTADOS</p>
+      <div class="csection__content">
+        <h2 class="csection__title">Do estudo ao app no ar</h2>
+        <p class="csection__lead">
+          O novo fluxo foi implementado e entrou em produção: o acesso por
+          CPF e a identificação de múltiplas carteirinhas no login passaram a
+          fazer parte do app, endereçando as duas queixas que deram origem
+          ao projeto.
+        </p>
+      </div>
+    </section>
+
+
+    <!-- ============ APRENDIZADOS ============ -->
+    <section class="csection container">
+      <p class="eyebrow csection__eyebrow">APRENDIZADOS</p>
+      <div class="csection__content">
+        <article class="learning">
+          <h3 class="learning__title">Pesquisa a quatro mãos exige<br />alinhar antes de dividir</h3>
+          <p class="learning__desc">
+            Conduzir o discovery em dupla acelerou o trabalho, mas só funcionou
+            porque partimos das mesmas evidências antes de decidir. A nuvem de
+            palavras e os dados da central foram o terreno comum que manteve as
+            duas cabeças no mesmo problema.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <hr class="divider container" />
+
+  </main>
+
+  <footer class="footer">
+    <p>João Pedro Gagliardi — Product Designer</p>
+    <p>© 2026</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
